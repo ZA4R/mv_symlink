@@ -2,10 +2,12 @@
 A Bash wrapper for 'mv' which which adds '-l' flag that moves a folder as usual and additionally create a soft link in the original location pointing to the new location. I forget the symlink cmd all the time so this is a neccessity :)
 
 # USAGE
-'''mv -l src dest''''
+'''bash
+mv -l src dest'''
 
 output:
-'''mv src dest
+'''bash
+mv src dest
 ln -s dest src'''
 
 # NOTES
